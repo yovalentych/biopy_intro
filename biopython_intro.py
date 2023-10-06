@@ -4,7 +4,7 @@ import math
 
 seq = "ACCTACGTCGACTCA"
 seq2 = "TTTCTTCGCATCGATCGC"
-seq3 = "TACCACGCGCTCGTCT"
+
 print(math.ceil(MeltingTemp.Tm_GC(seq)))
 
 print(Seq(seq).reverse_complement())
